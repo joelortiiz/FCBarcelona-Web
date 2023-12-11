@@ -1,19 +1,42 @@
+.logo {
+    width: 85px;
+    height: 85px;
+}
+.borde {
+    box-shadow: rgba(0, 0, 0, 0.6) 2px 2px;
+}
 .navbar {
     background-color: #D7182A;
-    
 }
 .navbar-brand {
     padding-left: 20px;
 }
+
 .navbar-nav .nav-link {
     color: #FFE019;
 }
+
+.card {
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.fixed-image-height {
+    height: 200px;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+.card img {
+    object-fit: cover;
+    height: 200px;
+}
+.card-body {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
 .navbar-nav .nav-link:hover {
     color: #FFFFFF;
-}
-.logo {
-    width: 100px;
-    height: 100px;
 }
 .link__footer {
     color: #FFE019;
