@@ -3,18 +3,14 @@
     height: 85px;
 }
 body {
- 
+ background-image: url(../assets/images/b2.webp);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
 }
 .main {
-    z-index: -5;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: url('../assets/images/b2.webp') center/cover no-repeat; 
-    background-color: rgba(0, 98, 255, 0.769);
+    background-color: rgba(0, 102, 255, 0.338);
+
 }
 .borde {
     box-shadow: rgba(0, 0, 0, 0.6) 2px 2px;
@@ -29,7 +25,13 @@ body {
 .navbar-nav .nav-link {
     color: #FFE019;
 }
+.yellowFCB {
+    color: #FFE019;
 
+}
+.redFCB {
+    color: #D7182A;
+}
 .card {
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -58,3 +60,31 @@ body {
 .social {
     width: 300px;
 }
+.player {
+    width: 180px;
+    height: 180px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.493);
+    transition: 0.4s all ease;
+}
+.player:hover {
+    transform: scale(1.1);
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 2%;
+}
+/* Estilo personalizado para quitar el borde de la tabla */
+.table-details {
+    border: none;
+}
+
+/* Estilo personalizado para quitar el borde de las celdas de la tabla */
+.table-details td,
+.table-details th {
+    border: none;
+}
+tr {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    margin: 0px 2rem;
+}
+ 
