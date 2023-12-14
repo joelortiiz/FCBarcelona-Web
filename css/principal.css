@@ -4,9 +4,12 @@
 }
 body {
  background-image: url(../assets/images/b2.webp);
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Opcional: fija la imagen al fondo */
+
+ 
 }
 .main {
     background-color: rgba(0, 102, 255, 0.338);
@@ -67,6 +70,7 @@ body {
     margin-bottom: 8px;
     border-bottom: 2px solid rgba(0, 0, 0, 0.493);
     transition: 0.4s all ease;
+    cursor: pointer;
 }
 .player:hover {
     transform: scale(1.1);
@@ -87,4 +91,25 @@ tr {
     border-bottom: 1px solid rgba(0, 0, 0, 0.15);
     margin: 0px 2rem;
 }
- 
+.img__clasi {
+    width: 700px;
+    height: 330px;
+    transition: all 0.2s ease;
+
+}
+.img__clasi:hover {
+  box-shadow: rgb(255, 0, 0) 3px 3px 3px;
+   
+   padding: 0px;
+}
+.img__clasi2 {
+    width: 700px;
+    height: 330px;
+    transition: all 0.2s ease;
+
+}
+.img__clasi2:hover {
+  box-shadow: rgb(0, 157, 255) 3px 3px 3px;
+   
+   padding: 0px;
+}
