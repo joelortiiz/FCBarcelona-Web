@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/principal.css" />
+    <link rel="stylesheet" href="../css/historia.css" />
+    <link rel="stylesheet" href="../css/entrada.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <title>FC Barcelona</title>
+</head>
+
+<body>
+    <header class="mb-4 ">
+        <nav class="navbar borde navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="../assets/images/logo.png" alt="FC Barcelona Logo" id="logo" class="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse justify-content-around navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./principal.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./equipos.html">Equipo 23/24 </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./historia.html">Historia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tienda</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-light" type="submit">
+                            Search
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="mt-5 main p-1">
+        <section>
+            <div class="margin__top d-flex container-fluid">
+                <div class="col-lg-6 d-flex text-center flex-column  article-section image-section">
+                    <h2 class="fs-1 yellowFCB">
+                        FC Barcelona - Girona
+                    </h2>
+                    <div class="border d-flex justify-content-around align-items-center">
+                        <img src="../assets/images/logo.png" alt="Imagen 2" class="escudo img-fluid">
+                        <p class="fs-1 text-danger">
+                            VS
+                        </p>
+                        <img src="../assets/images/girona.png" class="img-fluid escudo" alt="Imagen 1">
+                    </div>
+                    <h2 class="fs-1 yellowFCB">
+                        Últimos Partidos
+                    </h2>
+                    <div class="resultados col-md-12">
+                        <div class="d-flex justify-content-around align-items-center">
+                            <img src="../assets/images/girona.png" class="logo m-4" alt="">
+                            <p class="fs-1">
+                                2 - 3 
+                            </p>
+                            <img src="../assets/images/logo.png" class="logo m-4" alt="">
+                        </div>
+                        <div class="d-flex justify-content-around align-items-center">
+                            <img src="../assets/images/logo.png" class="logo m-4" alt="">
+                            <p class="fs-1">
+                                4 - 2 
+                            </p>
+                            <img src="../assets/images/girona.png" class="logo m-4" alt="">
+                        </div>
+                        <div class="d-flex justify-content-around align-items-center">
+                            <img src="../assets/images/logo.png" class="logo m-4" alt="">
+                            <p class="fs-1">
+                                4 - 2 
+                            </p>
+                            <img src="../assets/images/girona.png" class="logo m-4" alt="">
+                        </div>
+                    </div>
+                </div>
+                    <article class="col-lg-6 article__form">
+                        <div>
+                            <h2 class="title__form">Compra de Entradas</h2>
+                            <form>
+                                <div class="mb-3 ">
+                                    <label for="nombre" class="p-4">Nombre y Apellido:</label>
+                                    <div class="row">
+                                        <div class="col">
+                                            <input type="text" class="form-control" id="nombre" placeholder="Nombre"
+                                                required>
+                                        </div>
+                                        <div class="col">
+                                            <input type="text" class="form-control" id="apellido" placeholder="Apellido"
+                                                required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label for="asiento">Número de Asiento:</label>
+                                            <input type="text" class="form-control" id="asiento" value="" readonly>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="fecha">Fecha del Partido:</label>
+                                            <input type="date" class="form-control" id="fecha" required>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="correo">Teléfono de Contacto</label>
+                                    <input type="email" class="form-control" id="correo" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="correo">Correo Electrónico</label>
+                                    <input type="email" class="form-control" id="correo" required>
+                                </div>
+                                <button type="submit" class="boton"><strong> Comprar Entrada</strong></button>
+                            </form>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer class="navbar col-md-12">
+        <div class="container col-md-8">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3 class="text-light">Information</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none link__footer">Calendar</a></li>
+                        <li><a href="#" class="text-decoration-none link__footer">Transparency</a></li>
+                        <li><a href="#" class="text-decoration-none link__footer">Sponsors</a></li>
+                        <li><a href="#" class="text-decoration-none link__footer">Values</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="text-light">Sections</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none link__footer">Football</a></li>
+                        <li><a href="#" class="text-decoration-none link__footer">Basketball</a></li>
+                        <li><a href="#" class="text-decoration-none link__footer">Members</a></li>
+                        <li><a href="#" class="text-decoration-none link__footer">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="text-light">History</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none link__footer">Football History</a></li>
+                        <li><a href="#" class="text-decoration-none link__footer">Football Legends</a></li>
+                        <li><a href="#" class="text-decoration-none link__footer">Basketball History</a></li>
+                        <li><a href="#" class="text-decoration-none link__footer">Basketball Legends</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-center">
+                        FC Barcelona &copy; 2023. All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/script.js"></script>
+    <script src="../js/alert.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

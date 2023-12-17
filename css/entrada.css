@@ -1,0 +1,40 @@
+.article__form {
+    background-color: rgba(121, 255, 255, 0.1);
+    padding: 1rem;
+    text-align: center;
+
+}
+.margin__top {
+    margin-top: 70px;
+}
+.boton {
+    background-color: hsl(61, 83%, 47%);
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    padding: 1rem;
+    text-shadow: rgba(0, 0, 0, 0.7) 2px 2px;
+    border-radius: 8px;
+    border: 1px solid white;
+    transition: 0.3s all ease;
+}
+.resultados {
+    background-color: rgba(255, 255, 255, 0.841);
+    padding: 0.5rem;
+}
+.boton:hover {
+    background-color: red;
+    border: 2px solid gold;
+    transform: scale(1.1);
+    color: #d4d718;
+}
+.title__form {
+    font-size: 3.4rem ;
+    color: rgb(255, 48, 48);
+    text-shadow: rgb(39, 158, 255) 2px 2px;
+    padding: 1rem;
+}
+label {
+    font-size: 2rem;
+    text-shadow: black 1px 1px;
+    color: #d4d718;
+}
